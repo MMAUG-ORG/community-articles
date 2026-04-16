@@ -17,8 +17,6 @@ speakers:
   - "Benjamin Busari"
 ---
 
-<img src="{{ '/assets/images/events/github-copilot-dev-days-malta-banner.png' | relative_url }}" alt="GitHub Copilot Dev Days Malta — 29 April 2026" class="event-banner" />
-
 ## GitHub Copilot is coming to Malta
 
 The Malta Microsoft AI User Group (MMAUG) is thrilled to bring you **GitHub Copilot Dev Days** — an evening packed with technical sessions, live demonstrations, and a hands-on workshop designed to show you how GitHub Copilot can supercharge every part of your developer workflow.
