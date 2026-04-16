@@ -1,12 +1,12 @@
 # MMAUG Community Articles
 
-Technical articles from the [Malta Microsoft AI User Group (MMAUG)](https://github.com/maltamsaiusergroup) community.
+Technical articles from the [Malta Microsoft AI User Group (MMAUG)](https://github.com/MMAUG-ORG) community.
 
 [Meetup](https://www.meetup.com/malta-microsoft-ai-user-group) | [YouTube](https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG) | [LinkedIn](https://www.linkedin.com/company/malta-microsoft-ai-user-group) | [Facebook Group](https://www.facebook.com/groups/1505523794430853) | [Instagram](https://www.instagram.com/maltamsaiusergroup/)
 
 ## About
 
-This repository hosts community-contributed technical articles published via GitHub Pages at **[maltamsaiusergroup.github.io/community-articles](https://maltamsaiusergroup.github.io/community-articles/)**.
+This repository hosts community-contributed technical articles published via GitHub Pages at **[mmaug-org.github.io/community-articles](https://mmaug-org.github.io/community-articles/)**.
 
 Articles are written in Markdown, reviewed via Pull Requests, and automatically published when merged.
 
@@ -34,7 +34,7 @@ We welcome articles on topics including:
 
 ## Code of Conduct
 
-All contributors must follow the [MMAUG Code of Conduct](https://maltamsaiusergroup.github.io/maltamsaiusergroup/code-of-conduct.html).
+All contributors must follow the [MMAUG Code of Conduct](https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html).
 
 ## License
 

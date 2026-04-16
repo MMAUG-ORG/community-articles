@@ -6,7 +6,7 @@ hide_tagline: false
 
 Welcome to the **Malta Microsoft AI User Group** community articles platform. Here you will find technical articles written by MMAUG community members.
 
-Want to contribute? Read the [Contributing Guide](https://github.com/maltamsaiusergroup/community-articles/blob/main/CONTRIBUTING.md) or [propose an article](https://github.com/maltamsaiusergroup/community-articles/issues/new?template=article-proposal.yml).
+Want to contribute? Read the [Contributing Guide](https://github.com/MMAUG-ORG/community-articles/blob/main/CONTRIBUTING.md) or [propose an article](https://github.com/MMAUG-ORG/community-articles/issues/new?template=article-proposal.yml).
 
 ---
 
@@ -41,5 +41,5 @@ Want to contribute? Read the [Contributing Guide](https://github.com/maltamsaius
   {% endfor %}
 </ul>
 {% else %}
-<p>No articles published yet. Be the first to <a href="https://github.com/maltamsaiusergroup/community-articles/blob/main/CONTRIBUTING.md">contribute</a>!</p>
+<p>No articles published yet. Be the first to <a href="https://github.com/MMAUG-ORG/community-articles/blob/main/CONTRIBUTING.md">contribute</a>!</p>
 {% endif %}

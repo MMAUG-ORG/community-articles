@@ -27,7 +27,7 @@ Using GitHub as our articles platform provides several benefits:
 
 ### Step 1: Fork the Repository
 
-Go to [maltamsaiusergroup/community-articles](https://github.com/maltamsaiusergroup/community-articles) and click **Fork** to create a copy under your personal GitHub account.
+Go to [maltamsaiusergroup/community-articles](https://github.com/MMAUG-ORG/community-articles) and click **Fork** to create a copy under your personal GitHub account.
 
 ### Step 2: Create Your Article
 
@@ -39,7 +39,7 @@ YYYY-MM-DD-your-article-slug.md
 
 For example: `2026-04-16-getting-started-with-azure-ai-foundry.md`
 
-Copy the [article template](https://github.com/maltamsaiusergroup/community-articles/blob/main/article-template.md) and fill in your content.
+Copy the [article template](https://github.com/MMAUG-ORG/community-articles/blob/main/article-template.md) and fill in your content.
 
 ### Step 3: Add the Frontmatter
 
@@ -88,6 +88,6 @@ Contributing an article is a great way to share your knowledge, build your publi
 
 ## References
 
-- [MMAUG Community Governance](https://maltamsaiusergroup.github.io/maltamsaiusergroup/)
+- [MMAUG Community Governance](https://mmaug-org.github.io/maltamsaiusergroup/)
 - [MMAUG on Meetup](https://www.meetup.com/malta-microsoft-ai-user-group)
 - [MMAUG on LinkedIn](https://www.linkedin.com/company/malta-microsoft-ai-user-group)

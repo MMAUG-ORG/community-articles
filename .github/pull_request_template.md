@@ -14,4 +14,4 @@
 - [ ] YAML frontmatter is complete (title, author, author_github, date, tags, description)
 - [ ] Content follows the [CONTRIBUTING guidelines](../CONTRIBUTING.md)
 - [ ] Images (if any) are in `assets/images/articles/<slug>/`
-- [ ] I have read and agree to the [Code of Conduct](https://maltamsaiusergroup.github.io/maltamsaiusergroup/code-of-conduct.html)
+- [ ] I have read and agree to the [Code of Conduct](https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html)

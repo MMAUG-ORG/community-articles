@@ -6,9 +6,9 @@ This guide explains how to submit, review, and publish articles.
 
 ## Before You Start
 
-- Read the [MMAUG Code of Conduct](https://maltamsaiusergroup.github.io/maltamsaiusergroup/code-of-conduct.html).
-- Check [existing articles](https://maltamsaiusergroup.github.io/community-articles/) and [open issues](https://github.com/maltamsaiusergroup/community-articles/issues) to avoid duplicate topics.
-- If you have an idea but are unsure, [open an Article Proposal issue](https://github.com/maltamsaiusergroup/community-articles/issues/new?template=article-proposal.yml) to get feedback first.
+- Read the [MMAUG Code of Conduct](https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html).
+- Check [existing articles](https://mmaug-org.github.io/community-articles/) and [open issues](https://github.com/MMAUG-ORG/community-articles/issues) to avoid duplicate topics.
+- If you have an idea but are unsure, [open an Article Proposal issue](https://github.com/MMAUG-ORG/community-articles/issues/new?template=article-proposal.yml) to get feedback first.
 
 ## Contribution Workflow
 
@@ -102,7 +102,7 @@ In the PR description, include:
 - **Accurate** — verify technical claims, commands, and code samples.
 - **Clear** — write for your target audience. Define acronyms on first use.
 - **Structured** — use headings, code blocks, lists, and images to improve readability.
-- **Respectful** — follow the [MMAUG Code of Conduct](https://maltamsaiusergroup.github.io/maltamsaiusergroup/code-of-conduct.html).
+- **Respectful** — follow the [MMAUG Code of Conduct](https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html).
 
 ### What to Avoid
 
@@ -117,5 +117,5 @@ To update a published article, follow the same fork-and-PR workflow. Update the 
 
 ## Questions?
 
-- Open a [GitHub Discussion](https://github.com/maltamsaiusergroup/community-articles/discussions) for general questions.
-- Open an [Issue](https://github.com/maltamsaiusergroup/community-articles/issues) for bugs or suggestions.
+- Open a [GitHub Discussion](https://github.com/MMAUG-ORG/community-articles/discussions) for general questions.
+- Open an [Issue](https://github.com/MMAUG-ORG/community-articles/issues) for bugs or suggestions.

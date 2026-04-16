@@ -1,6 +1,6 @@
 # Code of Conduct
 
-All contributors and participants in this repository are expected to follow the [Malta Microsoft AI User Group (MMAUG) Code of Conduct](https://maltamsaiusergroup.github.io/maltamsaiusergroup/code-of-conduct.html).
+All contributors and participants in this repository are expected to follow the [Malta Microsoft AI User Group (MMAUG) Code of Conduct](https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html).
 
 Please read it in full before contributing.
 
