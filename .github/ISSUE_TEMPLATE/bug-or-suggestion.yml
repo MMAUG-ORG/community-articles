@@ -1,0 +1,12 @@
+name: "Bug or Suggestion"
+description: "Report a bug or suggest an improvement to the articles platform."
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the bug or suggestion."
+    validations:
+      required: true

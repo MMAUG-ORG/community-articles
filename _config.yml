@@ -1,0 +1,19 @@
+title: MMAUG Community Articles
+description: Technical articles from the Malta Microsoft AI User Group community
+theme: jekyll-theme-cayman
+markdown: kramdown
+url: https://maltamsaiusergroup.github.io
+baseurl: /community-articles
+
+collections:
+  articles:
+    output: true
+    sort_by: date
+    permalink: /articles/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"

@@ -1,0 +1,56 @@
+name: "Article Proposal"
+description: "Propose a new technical article for the MMAUG community."
+title: "[Article Proposal]: "
+labels: ["article-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing an article! Please fill in the details below so the community can provide feedback.
+
+  - type: input
+    id: title
+    attributes:
+      label: "Proposed Article Title"
+      placeholder: "e.g., Getting Started with Azure AI Foundry"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "A brief description of what the article will cover (2-3 sentences)."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: "Target Audience"
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: "Suggested Tags"
+      placeholder: "e.g., azure, ai-foundry, tutorial"
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: "Outline (Optional)"
+      description: "A rough outline of the sections you plan to cover."
+
+  - type: input
+    id: author
+    attributes:
+      label: "Author GitHub Username"
+      placeholder: "e.g., imohweb"
+    validations:
+      required: true
