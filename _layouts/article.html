@@ -6,32 +6,71 @@ layout: default
   <a href="{{ '/' | relative_url }}">← Back to all articles</a>
 </p>
 
-<article>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p class="article-meta">
-      By <strong>
-        {% if page.author_github %}
-          <a href="https://github.com/{{ page.author_github }}">{{ page.author }}</a>
-        {% else %}
-          {{ page.author }}
-        {% endif %}
-      </strong>
-      &middot; {{ page.date | date: "%B %d, %Y" }}
-    </p>
-    {% if page.tags %}
-      <p class="article-tags">
-        {% for tag in page.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
+<div class="article-with-sidebar">
+  <article class="article-main">
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p class="article-meta">
+        By <strong>
+          {% if page.author_github %}
+            <a href="https://github.com/{{ page.author_github }}">{{ page.author }}</a>
+          {% else %}
+            {{ page.author }}
+          {% endif %}
+        </strong>
+        &middot; {{ page.date | date: "%B %d, %Y" }}
       </p>
-    {% endif %}
-    {% if page.description %}
-      <p><em>{{ page.description }}</em></p>
-    {% endif %}
-  </header>
+      {% if page.tags %}
+        <p class="article-tags">
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </p>
+      {% endif %}
+      {% if page.description %}
+        <p><em>{{ page.description }}</em></p>
+      {% endif %}
+    </header>
 
-  <hr />
+    <hr />
 
-  {{ content }}
-</article>
+    {{ content }}
+  </article>
+
+  <aside class="article-sidebar">
+    {% if page.event_date %}
+    <div class="sidebar-widget">
+      <h4>Event Details</h4>
+      <ul class="sidebar-details">
+        {% if page.event_date %}<li>📅 <strong>{{ page.event_date }}</strong></li>{% endif %}
+        {% if page.event_time %}<li>🕖 <strong>{{ page.event_time }}</strong></li>{% endif %}
+        {% if page.event_venue %}<li>📍 {{ page.event_venue }}</li>{% endif %}
+      </ul>
+      {% if page.registration_url %}
+        <a href="{{ page.registration_url }}" class="sidebar-cta" target="_blank" rel="noopener">Register Now</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="sidebar-widget">
+      <h4>Community Links</h4>
+      <ul class="sidebar-links">
+        <li><a href="https://www.meetup.com/malta-microsoft-ai-user-group/" target="_blank" rel="noopener">Meetup</a></li>
+        <li><a href="https://www.linkedin.com/company/malta-microsoft-ai-user-group" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://github.com/maltamsaiusergroup" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+
+    {% if page.speakers %}
+    <div class="sidebar-widget">
+      <h4>Speakers</h4>
+      <ul class="sidebar-links">
+        {% for speaker in page.speakers %}
+          <li>{{ speaker }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </aside>
+</div>
