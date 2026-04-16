@@ -4,12 +4,13 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 url: https://mmaug-org.github.io
 baseurl: /community-articles
+future: true
 
 collections:
   articles:
     output: true
     sort_by: date
-    permalink: /articles/:slug/
+    permalink: /articles/:title/
 
 defaults:
   - scope:
