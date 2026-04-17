@@ -105,7 +105,7 @@ After the sessions, roll up your sleeves for a **guided technical workshop** led
 
 | | |
 |---|---|
-| **Date** | Tuesday, 29 April 2026 |
+| **Date** | Wednesday, 29 April 2026 |
 | **Time** | 7:00 PM CET (doors open at 7:00 PM sharp) |
 | **Venue** | Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa, Malta |
 | **Cost** | Free |
