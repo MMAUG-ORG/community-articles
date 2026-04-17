@@ -26,7 +26,7 @@ The Malta Microsoft AI User Group (MMAUG) is thrilled to bring you **GitHub Copi
 Whether you're a seasoned engineer looking to unlock new productivity gains or a student curious about AI-assisted development, this event is for you. Come see how AI pair programming is reshaping the way we write, review, debug, and ship code.
 
 <div class="event-highlight">
-  <strong>📅 Wedenesday, 29 April 2026 &middot; 7:00 PM CET</strong><br/>
+  <strong>📅 Wednesday, 29 April 2026 &middot; 7:00 PM CET</strong><br/>
   Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa<br/>
   <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/" target="_blank" rel="noopener">🎟️ Register Free on Meetup</a>
 </div>
@@ -125,4 +125,9 @@ We look forward to seeing you there!
 
 ---
 
-*This event is organised by the [Malta Microsoft AI User Group (MMAUG)](https://www.meetup.com/malta-microsoft-ai-user-group/).*
+*This event is organised by the [Malta Microsoft AI User Group (MMAUG)](https://www.meetup.com/malta-microsoft-ai-user-group/) and sponsored by Microsoft.*
+
+<div class="sponsor-section">
+  <p><strong>Sponsored by</strong></p>
+  <img src="{{ '/assets/images/events/microsoft-logo.png' | relative_url }}" alt="Microsoft" width="150" />
+</div>
