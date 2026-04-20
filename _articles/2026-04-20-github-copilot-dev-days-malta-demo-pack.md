@@ -14,7 +14,9 @@ All demos are designed to be reusable after the event for participant self-paced
 
 Official technical demos repository:
 
-- https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos
+<div class="event-highlight">
+	<a href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos" target="_blank" rel="noopener">&#x1F5C3; GitHub: Click here to open the full technical demos repository</a>
+</div>
 
 ## Session Demo Tracks
 
@@ -28,7 +30,9 @@ Focus areas:
 
 Track folder in repository:
 
-- https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/01-every-workflow
+<div class="event-highlight">
+	<a href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/01-every-workflow" target="_blank" rel="noopener">&#x1F4C1; GitHub: Click here to open Session 1 demo folder</a>
+</div>
 
 ### Session 2 - VS Code + GitHub Copilot
 
@@ -40,7 +44,9 @@ Focus areas:
 
 Track folder in repository:
 
-- https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/02-vscode-copilot
+<div class="event-highlight">
+	<a href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/02-vscode-copilot" target="_blank" rel="noopener">&#x1F4C1; GitHub: Click here to open Session 2 demo folder</a>
+</div>
 
 ### Session 3 - GitHub Agentic Workflows
 
@@ -52,7 +58,9 @@ Focus areas:
 
 Track folder in repository:
 
-- https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/03-agentic-workflows
+<div class="event-highlight">
+	<a href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/03-agentic-workflows" target="_blank" rel="noopener">&#x1F4C1; GitHub: Click here to open Session 3 demo folder</a>
+</div>
 
 ### Session 4 - GitHub Copilot CLI - Your AI Terminal Companion
 
@@ -64,14 +72,18 @@ Focus areas:
 
 Track folder in repository:
 
-- https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/04-copilot-cli
+<div class="event-highlight">
+	<a href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos/tree/main/sessions/04-copilot-cli" target="_blank" rel="noopener">&#x1F4C1; GitHub: Click here to open Session 4 demo folder</a>
+</div>
 
 ## 1-Hour Workshop
 
 Workshop source used:
 
 - https://copilot-dev-days.github.io/agent-lab-python/
-- https://github.com/copilot-dev-days/agent-lab-python
+<div class="event-highlight">
+	<a href="https://github.com/copilot-dev-days/agent-lab-python" target="_blank" rel="noopener">&#x1F5C3; GitHub: Click here to open the official Agent Lab Python repository</a>
+</div>
 
 Workshop structure:
 
