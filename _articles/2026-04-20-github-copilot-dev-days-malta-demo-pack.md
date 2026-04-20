@@ -80,19 +80,6 @@ Workshop structure:
 3. Custom Quiz Master (10 min)
 4. Multi-Agent Development (20 min)
 
-## URL Extraction Summary from Session Decks
-
-Extracted session-relevant URLs included:
-
-- https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/
-- https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/
-- https://github.com/githubnext/agentics/
-- https://github.github.com/gh-aw/setup/quick-start/
-- https://github.github.com/gh-aw/introduction/architecture/
-- https://github.github.com/gh-aw/patterns/chat-ops/
-- https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents
-- https://copilot-dev-days.github.io/agent-lab-python/
-
 ## Community publication checklist
 
 1. Use the single repository in MMAUG organization.
