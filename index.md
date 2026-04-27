@@ -215,10 +215,19 @@ hide_tagline: false
   </div>
 </section>
 
+</div>
+
 <section class="hub-section">
   <div class="section-heading">
     <p class="eyebrow">Latest articles</p>
     <h2>Community knowledge base</h2>
+  </div>
+
+  <div class="featured-article-link" style="margin-bottom: 1.5em;">
+    <a class="primary-action" href="/community-articles/articles/2026-04-17-github-copilot-dev-days-malta.html">
+      <strong>GitHub Copilot Dev Days Malta — Full Event Details</strong>
+    </a>
+    <span style="display:block; margin-top:0.5em;">Join us for an evening of hands-on sessions, live demos, and a technical workshop at the first-ever GitHub Copilot Dev Days in Malta.</span>
   </div>
 
 {% assign sorted_articles = site.articles | sort: "date" | reverse %}
