@@ -8,7 +8,7 @@ description: "Join us for an evening of hands-on sessions, live demos, and a tec
 event_date: "29 April 2026"
 event_time: "7:00 PM CET (doors open at 7:00 PM sharp)"
 event_venue: "Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa, Malta"
-registration_url: "https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/"
+<div class="session-card">
 speakers:
   - "Ezekiel Ibegbunam"
   - "Emmanuel Itoje"
@@ -17,7 +17,7 @@ speakers:
   - "Benjamin Busari"
 ---
 
-<img src="{{ '/assets/images/events/github-copilot-dev-days.png' | relative_url }}" alt="GitHub Copilot Dev Days Malta — 29 April 2026" class="event-banner" />
+<div class="session-card">
 
 ## GitHub Copilot is coming to Malta
 
@@ -26,46 +26,41 @@ The Malta Microsoft AI User Group (MMAUG) is thrilled to bring you **GitHub Copi
 Whether you're a seasoned engineer looking to unlock new productivity gains or a student curious about AI-assisted development, this event is for you. Come see how AI pair programming is reshaping the way we write, review, debug, and ship code.
 
 <div class="event-highlight">
-  <strong>📅 Wednesday, 29 April 2026 &middot; 7:00 PM CET</strong><br/>
+<div class="session-card">
   Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa<br/>
   <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/" target="_blank" rel="noopener">🎟️ Register Free on Meetup</a>
+</div>
+
+<div class="session-card session-break">
+  <h4>Short break (coffee) <span style="font-weight:normal;">(10 mins)</span></h4>
+  <p>☕ Networking & refreshments</p>
 </div>
 
 ---
 
 ## What to Expect
 
-
+<div class="session-card">
 An evening of five focused technical sessions, two networking breaks, and a one-hour hands-on workshop — all designed to take you from "What is Copilot?" to "I can't code without it."
 
 ---
 
-## Event Schedule
-
-| S/N | Selected Sessions                                      | Speaker(s)                | Session Time Slot |  |
-|-----|--------------------------------------------------------|---------------------------|-------------------|---|
-|     |                                                        |                           |                   | **Event Duration: 7 PM – 10 PM** |
-| 1   | Welcoming audience & Introduction of the Community      | Ezekiel Ibegbunam         | 10 mins           |   |
-| 2   | GitHub Copilot Dev Days Overview                       | Emmanuel Itoje            | 20 mins           |   |
-| 3   | GitHub Copilot Dev Days – VS Code                      | Imoh Etuk                 | 20 mins           |   |
-|     | Short break (coffee)                                   | -                         | 10 mins           |   |
-| 4   | GitHub Copilot Dev Days – Agentic Workflows            | James Balogun             | 20 mins           |   |
-| 5   | GitHub Copilot Dev Days – CLI                          | Benjamin Busari           | 20 mins           |   |
-|     | Coffee break & networking                              | -                         | 20 mins           |   |
-| 6   | Technical Workshop                                     | Imoh Etuk & Benjamin Busari | 1 hr            |   |
-
----
 
 ### Session Line-up
 
 <div class="session-card">
-  <h4>Welcome & Community Introduction</h4>
+<div class="session-card">
   <p>🎙️ <strong>Ezekiel Ibegbunam</strong></p>
 </div>
 
+
+<div class="session-card session-break">
+  <h4>Coffee break & networking <span style="font-weight:normal;">(20 mins)</span></h4>
+  <p>☕ More time to connect and discuss with fellow attendees</p>
+</div>
 <div class="session-card">
   <h4>Session 1 — GitHub Copilot: Your AI Companion for Every Workflow</h4>
-  <p>🎙️ <strong>Emmanuel Itoje</strong> — Discover how Copilot integrates across your entire development lifecycle — from code generation and pull request summaries to documentation and code review.</p>
+### Hands-on Workshop <span style="font-weight:normal;">(1 hr)</span>
 </div>
 
 <div class="session-card">
