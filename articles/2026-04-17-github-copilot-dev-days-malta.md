@@ -152,7 +152,7 @@ speakers:
       </article>
       <article>
         <h3>Emmanuel Itoje</h3>
-        <p>GitHub Copilot for developer workflows</p>
+        <p>GitHub Copilot Dev Days Overview</p>
       </article>
       <article>
         <h3>Imoh Etuk</h3>
