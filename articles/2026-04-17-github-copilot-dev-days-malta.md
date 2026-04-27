@@ -175,6 +175,7 @@ speakers:
       <li>Bring a laptop for the guided workshop.</li>
       <li>Reserve your place through the Meetup event page.</li>
       <li>Arrive on time so you can follow the full sequence of demos and workshop exercises.</li>
+      <li>Review the <a href="https://mmaug-org.github.io/maltamsaiusergroup/code-of-conduct.html" target="_blank" rel="noopener">MMAUG Code of Conduct</a> before attending.</li>
       <li>Complete the event survey for a chance to win a one-year GitHub Copilot Pro+ subscription.</li>
     </ul>
   </section>
