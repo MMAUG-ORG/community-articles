@@ -8,7 +8,7 @@ published: false
 tags: [github-copilot, event, malta, ai, developer-tools]
 description: "Join MMAUG for an in-person GitHub Copilot Dev Days evening with practical sessions, live demos, and a guided hands-on workshop in Malta."
 event_date: "Wednesday, April 29, 2026"
-event_time: "7:00 PM to 10 PM CEST"
+event_time: "7:00 PM to 10:00 PM CEST"
 event_venue: "Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa, Malta"
 registration_url: "https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/"
 canonical_url: "https://mmaug-org.github.io/community-articles/articles/2026-04-17-github-copilot-dev-days-malta.html"

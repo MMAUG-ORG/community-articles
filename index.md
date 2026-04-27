@@ -30,7 +30,7 @@ hide_tagline: false
   <div class="featured-event-copy">
     <p class="eyebrow">Featured event</p>
     <h2>GitHub Copilot Dev Days | Malta</h2>
-    <p class="event-date">April 29, 2026 - 7:00 PM CEST</p>
+    <p class="event-date">April 29, 2026 - 7:00 PM to 10:00 PM CEST</p>
     <p>
       Join an in-person evening of technical sessions and hands-on practice focused on AI-assisted coding with GitHub
       Copilot. Bring your laptop and get ready to build.
@@ -215,8 +215,6 @@ hide_tagline: false
   </div>
 </section>
 
-</div>
-
 <section class="hub-section">
   <div class="section-heading">
     <p class="eyebrow">Latest articles</p>
@@ -225,9 +223,9 @@ hide_tagline: false
 
   <div class="featured-article-link" style="margin-bottom: 1.5em;">
     <a class="primary-action" href="/community-articles/articles/2026-04-17-github-copilot-dev-days-malta.html">
-      <strong>GitHub Copilot Dev Days Malta — Full Event Details</strong>
+      <strong>GitHub Copilot Dev Days | Malta</strong>
     </a>
-    <span style="display:block; margin-top:0.5em;">Join us for an evening of hands-on sessions, live demos, and a technical workshop at the first-ever GitHub Copilot Dev Days in Malta.</span>
+    <span style="display:block; margin-top:0.5em;">Join MMAUG for an in-person GitHub Copilot Dev Days evening with practical sessions, live demos, and a guided hands-on workshop in Malta.</span>
   </div>
 
 {% assign sorted_articles = site.articles | sort: "date" | reverse %}

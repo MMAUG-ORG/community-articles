@@ -196,22 +196,23 @@ $mmaug-soft: #f6f8fa;
 }
 
 .primary-action {
-  background: $mmaug-green;
+  background: $mmaug-dark-blue;
   color: #fff !important;
 }
 
 .primary-action:hover {
-  background: #238636;
+  background: $mmaug-blue;
   text-decoration: none;
 }
 
 .secondary-action {
   background: #fff;
-  border: 1px solid $mmaug-border;
+  border: 1px solid $mmaug-dark-blue;
   color: $mmaug-dark-blue !important;
 }
 
 .secondary-action:hover {
+  background: #eef6ff;
   border-color: $mmaug-blue;
   text-decoration: none;
 }
@@ -687,7 +688,7 @@ $mmaug-soft: #f6f8fa;
 .sidebar-cta {
   display: block;
   text-align: center;
-  background: #2ea44f;
+  background: $mmaug-dark-blue;
   color: #fff !important;
   padding: 10px 16px;
   border-radius: 6px;
@@ -698,7 +699,7 @@ $mmaug-soft: #f6f8fa;
 }
 
 .sidebar-cta:hover {
-  background: #22863a;
+  background: $mmaug-blue;
   text-decoration: none;
   color: #fff !important;
 }
@@ -923,7 +924,7 @@ $mmaug-soft: #f6f8fa;
 
 .event-highlight a {
   color: #fff;
-  background: #2ea44f;
+  background: $mmaug-dark-blue;
   padding: 12px 28px;
   border-radius: 6px;
   text-decoration: none;
@@ -935,7 +936,7 @@ $mmaug-soft: #f6f8fa;
 }
 
 .event-highlight a:hover {
-  background: #22863a;
+  background: $mmaug-blue;
 }
 
 /* Session card */

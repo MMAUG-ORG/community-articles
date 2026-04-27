@@ -7,7 +7,7 @@ date: 2026-04-17
 tags: [github-copilot, event, malta, ai, developer-tools]
 description: "Join MMAUG for an in-person GitHub Copilot Dev Days evening with practical sessions, live demos, and a guided hands-on workshop in Malta."
 event_date: "Wednesday, April 29, 2026"
-event_time: "7:00 PM to 9:30 PM CEST"
+event_time: "7:00 PM to 10:00 PM CEST"
 event_venue: "Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa, Malta"
 registration_url: "https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/"
 speakers:
@@ -46,7 +46,7 @@ speakers:
       </div>
       <div>
         <dt>Time</dt>
-        <dd>7:00 PM to 9:30 PM CEST</dd>
+        <dd>7:00 PM to 10:00 PM CEST</dd>
       </div>
       <div>
         <dt>Venue</dt>
@@ -85,38 +85,59 @@ speakers:
     <h2 id="agenda">Agenda Highlights</h2>
     <ol class="event-agenda">
       <li>
-        <span>Welcome</span>
+        <span>10 mins</span>
         <div>
-          <h3>Community introduction</h3>
+          <h3>Welcoming audience and introduction of the community</h3>
           <p>Ezekiel Ibegbunam opens the evening and sets context for the Malta Microsoft AI User Group community.</p>
         </div>
       </li>
       <li>
-        <span>Session</span>
+        <span>20 mins</span>
         <div>
-          <h3>GitHub Copilot for everyday developer workflows</h3>
+          <h3>GitHub Copilot Dev Days Overview</h3>
           <p>Emmanuel Itoje covers how Copilot can support feature work, reviews, tests, documentation, and delivery.</p>
         </div>
       </li>
       <li>
-        <span>Session</span>
+        <span>20 mins</span>
         <div>
-          <h3>Copilot in VS Code, agentic workflows, and the CLI</h3>
-          <p>Imoh Etuk, James Balogun, and Benjamin Busari demonstrate Copilot across the editor, autonomous workflows, and terminal tasks.</p>
+          <h3>GitHub Copilot Dev Days - VS Code</h3>
+          <p>Imoh Etuk demonstrates the Copilot experience in VS Code, including inline suggestions, chat, commands, and agent mode.</p>
         </div>
       </li>
       <li>
-        <span>Workshop</span>
+        <span>10 mins</span>
         <div>
-          <h3>Hands-on lab</h3>
-          <p>Participants work through guided exercises using GitHub Copilot. Bring a laptop and be ready to code.</p>
+          <h3>Short break (coffee)</h3>
+          <p>Refreshments and informal discussion.</p>
         </div>
       </li>
       <li>
-        <span>Connect</span>
+        <span>20 mins</span>
         <div>
-          <h3>Breaks, snacks, and discussion</h3>
+          <h3>GitHub Copilot Dev Days - Agentic Workflows</h3>
+          <p>James Balogun explores agentic workflows for planning, executing, and iterating on multi-step development tasks.</p>
+        </div>
+      </li>
+      <li>
+        <span>20 mins</span>
+        <div>
+          <h3>GitHub Copilot Dev Days - CLI</h3>
+          <p>Benjamin Busari demonstrates how Copilot supports terminal workflows, command explanation, and shell productivity.</p>
+        </div>
+      </li>
+      <li>
+        <span>20 mins</span>
+        <div>
+          <h3>Coffee break and networking</h3>
           <p>Use the breaks to compare approaches, ask questions, and meet other builders in the local community.</p>
+        </div>
+      </li>
+      <li>
+        <span>1 hour</span>
+        <div>
+          <h3>Technical Workshop</h3>
+          <p>Imoh Etuk and Benjamin Busari guide participants through practical GitHub Copilot exercises. Bring a laptop and be ready to code.</p>
         </div>
       </li>
     </ol>
