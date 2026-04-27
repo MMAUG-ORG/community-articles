@@ -703,6 +703,207 @@ $mmaug-soft: #f6f8fa;
   color: #fff !important;
 }
 
+/* GitHub Copilot Dev Days event page */
+.event-article {
+  color: $mmaug-ink;
+}
+
+.event-banner-frame {
+  background: #0b1120;
+  border-radius: 8px;
+  margin: 0 0 28px;
+  overflow: hidden;
+}
+
+.event-banner-frame img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.event-overview-band,
+.event-register-band {
+  background: #f4f8ff;
+  border-left: 5px solid $mmaug-blue;
+  border-radius: 0 8px 8px 0;
+  margin: 28px 0;
+  padding: 24px;
+}
+
+.event-overview-band h2,
+.event-register-band h2 {
+  margin-top: 0;
+}
+
+.event-overview-band p,
+.event-register-band p,
+.event-section p {
+  line-height: 1.65;
+}
+
+.event-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.event-section {
+  border-top: 1px solid $mmaug-border;
+  margin: 30px 0;
+  padding-top: 24px;
+}
+
+.event-detail-grid,
+.event-feature-grid,
+.speaker-grid {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0 0;
+}
+
+.event-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.event-detail-grid div,
+.event-feature-grid article,
+.speaker-grid article {
+  background: #fff;
+  border: 1px solid $mmaug-border;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.event-detail-grid dt {
+  color: $mmaug-dark-blue;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.event-detail-grid dd {
+  color: $mmaug-muted;
+  margin: 0;
+}
+
+.event-feature-grid,
+.speaker-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.event-feature-grid article {
+  border-top: 4px solid $mmaug-green;
+}
+
+.event-feature-grid article:nth-child(2) {
+  border-top-color: $mmaug-blue;
+}
+
+.event-feature-grid article:nth-child(3) {
+  border-top-color: $mmaug-teal;
+}
+
+.event-feature-grid article:nth-child(4) {
+  border-top-color: $mmaug-amber;
+}
+
+.event-feature-grid h3,
+.speaker-grid h3,
+.event-agenda h3 {
+  font-size: 1.05em;
+  margin: 0 0 6px;
+}
+
+.event-feature-grid p,
+.speaker-grid p,
+.event-agenda p {
+  color: $mmaug-muted;
+  margin: 0;
+}
+
+.event-agenda {
+  counter-reset: agenda;
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.event-agenda li {
+  align-items: start;
+  border-left: 4px solid $mmaug-blue;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 108px minmax(0, 1fr);
+  margin-bottom: 14px;
+  padding: 4px 0 4px 16px;
+}
+
+.event-agenda li:nth-child(2) {
+  border-left-color: $mmaug-green;
+}
+
+.event-agenda li:nth-child(3) {
+  border-left-color: $mmaug-teal;
+}
+
+.event-agenda li:nth-child(4) {
+  border-left-color: $mmaug-amber;
+}
+
+.event-agenda span {
+  color: $mmaug-dark-blue;
+  font-size: 0.82em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.speaker-grid article {
+  border-left: 4px solid $mmaug-teal;
+}
+
+.event-check-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  padding-left: 20px;
+}
+
+.event-check-list li {
+  line-height: 1.55;
+}
+
+.event-register-band {
+  align-items: center;
+  background: #fff8e6;
+  border-left-color: $mmaug-amber;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.event-register-band .primary-action {
+  align-self: center;
+}
+
+.sponsor-section {
+  align-items: center;
+  border-top: 1px solid $mmaug-border;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding-top: 22px;
+}
+
+.sponsor-section p {
+  margin: 0;
+}
+
+.sponsor-section img {
+  height: auto;
+  max-width: 150px;
+}
+
 /* Event banner */
 .event-banner {
   width: 100%;
@@ -824,6 +1025,10 @@ $mmaug-soft: #f6f8fa;
     grid-template-columns: 1fr;
   }
 
+  .event-register-band {
+    grid-template-columns: 1fr;
+  }
+
   .learning-path .section-heading {
     grid-template-columns: 1fr;
   }
@@ -840,7 +1045,10 @@ $mmaug-soft: #f6f8fa;
 
 @media (max-width: 560px) {
   .event-grid,
-  .learning-steps {
+  .learning-steps,
+  .event-detail-grid,
+  .event-feature-grid,
+  .speaker-grid {
     grid-template-columns: 1fr;
   }
 
@@ -861,5 +1069,19 @@ $mmaug-soft: #f6f8fa;
   .primary-action,
   .secondary-action {
     width: 100%;
+  }
+
+  .event-action-row {
+    display: grid;
+  }
+
+  .event-agenda li {
+    gap: 6px;
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-section {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
