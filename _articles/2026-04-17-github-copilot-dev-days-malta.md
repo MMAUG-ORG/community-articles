@@ -44,44 +44,31 @@ An evening of five focused technical sessions, two networking breaks, and a one-
 
 
 
+
 ### Session Line-up
 
-<div class="session-card">
-  <h4>Welcome & Community Introduction <span style="font-weight:normal;">(10 mins)</span></h4>
-  <p>🎙️ <strong>Ezekiel Ibegbunam</strong></p>
-</div>
+- **Welcome & Community Introduction** (10 mins)  
+  🎙️ Ezekiel Ibegbunam
 
-<div class="session-card">
-  <h4>Session 1 — GitHub Copilot: Your AI Companion for Every Workflow <span style="font-weight:normal;">(20 mins)</span></h4>
-  <p>🎙️ <strong>Emmanuel Itoje</strong> — Discover how Copilot integrates across your entire development lifecycle — from code generation and pull request summaries to documentation and code review.</p>
-</div>
+- **Session 1 — GitHub Copilot: Your AI Companion for Every Workflow** (20 mins)  
+  🎙️ Emmanuel Itoje — Discover how Copilot integrates across your entire development lifecycle — from code generation and pull request summaries to documentation and code review.
 
-<div class="session-card">
-  <h4>Session 2 — VS Code + GitHub Copilot <span style="font-weight:normal;">(20 mins)</span></h4>
-  <p>🎙️ <strong>Imoh Etuk</strong> — A deep dive into the VS Code Copilot experience: inline suggestions, chat, slash commands, and agent mode. See how to get the most out of Copilot right inside your editor.</p>
-</div>
+- **Session 2 — VS Code + GitHub Copilot** (20 mins)  
+  🎙️ Imoh Etuk — A deep dive into the VS Code Copilot experience: inline suggestions, chat, slash commands, and agent mode. See how to get the most out of Copilot right inside your editor.
 
-<div class="session-card session-break">
-  <h4>Short break (coffee) <span style="font-weight:normal;">(10 mins)</span></h4>
-  <p>☕ Networking & refreshments</p>
-</div>
+- **Short break (coffee)** (10 mins)  
+  ☕ Networking & refreshments
 
-<div class="session-card">
-  <h4>Session 3 — GitHub Agentic Workflows <span style="font-weight:normal;">(20 mins)</span></h4>
-  <p>🎙️ <strong>James Balogun</strong> — Explore the next frontier of AI-powered automation: agentic workflows that let Copilot plan, execute, and iterate on multi-step development tasks autonomously.</p>
-</div>
+- **Session 3 — GitHub Agentic Workflows** (20 mins)  
+  🎙️ James Balogun — Explore the next frontier of AI-powered automation: agentic workflows that let Copilot plan, execute, and iterate on multi-step development tasks autonomously.
 
-<div class="session-card">
-  <h4>Session 4 — GitHub Copilot CLI – Your AI Terminal Companion <span style="font-weight:normal;">(20 mins)</span></h4>
-  <p>🎙️ <strong>Benjamin Busari</strong> — Stop memorising shell commands. Learn how Copilot CLI turns natural language into terminal commands, explains complex scripts, and makes the command line accessible to everyone.</p>
-</div>
+- **Session 4 — GitHub Copilot CLI – Your AI Terminal Companion** (20 mins)  
+  🎙️ Benjamin Busari — Stop memorising shell commands. Learn how Copilot CLI turns natural language into terminal commands, explains complex scripts, and makes the command line accessible to everyone.
 
-<div class="session-card session-break">
-  <h4>Coffee break & networking <span style="font-weight:normal;">(20 mins)</span></h4>
-  <p>☕ More time to connect and discuss with fellow attendees</p>
-</div>
+- **Coffee break & networking** (20 mins)  
+  ☕ More time to connect and discuss with fellow attendees
 
-### Hands-on Workshop <span style="font-weight:normal;">(1 hr)</span>
+### Hands-on Workshop (1 hr)
 
 After the sessions, roll up your sleeves for a **guided technical workshop** led by **Imoh Etuk** and **Benjamin Busari**. You'll work through real-world exercises using GitHub Copilot — bring your laptop and come ready to code!
 
