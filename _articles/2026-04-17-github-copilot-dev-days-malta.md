@@ -8,7 +8,6 @@ description: "Join us for an evening of hands-on sessions, live demos, and a tec
 event_date: "29 April 2026"
 event_time: "7:00 PM CET (doors open at 7:00 PM sharp)"
 event_venue: "Microsoft Innovation Centre, Level 5, Skyparks Business Centre, Luqa, Malta"
-<div class="session-card">
 speakers:
   - "Ezekiel Ibegbunam"
   - "Emmanuel Itoje"
