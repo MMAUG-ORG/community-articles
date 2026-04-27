@@ -38,6 +38,7 @@ hide_tagline: false
     <div class="inline-actions">
       <a class="primary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/" target="_blank" rel="noopener">Register on Meetup</a>
       <a class="secondary-action" href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos" target="_blank" rel="noopener">View Demo Resources</a>
+        <a class="secondary-action" href="/community-articles/articles/2026-04-17-github-copilot-dev-days-malta.html" target="_blank" rel="noopener">Read full event details</a>
     </div>
   </div>
     <dl class="event-facts">
