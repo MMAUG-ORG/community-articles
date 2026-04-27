@@ -1,6 +1,4 @@
----
-title: "GitHub Copilot Dev Days Malta — 29 April 2026"
-author: "Imoh Etuk"
+
 author_github: "imohweb"
 date: 2026-04-17
 tags: [github-copilot, event, malta, ai, developer-tools]
@@ -39,45 +37,53 @@ Whether you're a seasoned engineer looking to unlock new productivity gains or a
 
 ## What to Expect
 
-<div class="session-card">
+
 An evening of five focused technical sessions, two networking breaks, and a one-hour hands-on workshop — all designed to take you from "What is Copilot?" to "I can't code without it."
 
 ---
 
 
+
 ### Session Line-up
 
 <div class="session-card">
-<div class="session-card">
+  <h4>Welcome & Community Introduction <span style="font-weight:normal;">(10 mins)</span></h4>
   <p>🎙️ <strong>Ezekiel Ibegbunam</strong></p>
 </div>
 
+<div class="session-card">
+  <h4>Session 1 — GitHub Copilot: Your AI Companion for Every Workflow <span style="font-weight:normal;">(20 mins)</span></h4>
+  <p>🎙️ <strong>Emmanuel Itoje</strong> — Discover how Copilot integrates across your entire development lifecycle — from code generation and pull request summaries to documentation and code review.</p>
+</div>
+
+<div class="session-card">
+  <h4>Session 2 — VS Code + GitHub Copilot <span style="font-weight:normal;">(20 mins)</span></h4>
+  <p>🎙️ <strong>Imoh Etuk</strong> — A deep dive into the VS Code Copilot experience: inline suggestions, chat, slash commands, and agent mode. See how to get the most out of Copilot right inside your editor.</p>
+</div>
+
+<div class="session-card session-break">
+  <h4>Short break (coffee) <span style="font-weight:normal;">(10 mins)</span></h4>
+  <p>☕ Networking & refreshments</p>
+</div>
+
+<div class="session-card">
+  <h4>Session 3 — GitHub Agentic Workflows <span style="font-weight:normal;">(20 mins)</span></h4>
+  <p>🎙️ <strong>James Balogun</strong> — Explore the next frontier of AI-powered automation: agentic workflows that let Copilot plan, execute, and iterate on multi-step development tasks autonomously.</p>
+</div>
+
+<div class="session-card">
+  <h4>Session 4 — GitHub Copilot CLI – Your AI Terminal Companion <span style="font-weight:normal;">(20 mins)</span></h4>
+  <p>🎙️ <strong>Benjamin Busari</strong> — Stop memorising shell commands. Learn how Copilot CLI turns natural language into terminal commands, explains complex scripts, and makes the command line accessible to everyone.</p>
+</div>
 
 <div class="session-card session-break">
   <h4>Coffee break & networking <span style="font-weight:normal;">(20 mins)</span></h4>
   <p>☕ More time to connect and discuss with fellow attendees</p>
 </div>
-<div class="session-card">
-  <h4>Session 1 — GitHub Copilot: Your AI Companion for Every Workflow</h4>
+
 ### Hands-on Workshop <span style="font-weight:normal;">(1 hr)</span>
-</div>
 
-<div class="session-card">
-  <h4>Session 2 — VS Code + GitHub Copilot</h4>
-  <p>🎙️ <strong>Imoh Etuk</strong> — A deep dive into the VS Code Copilot experience: inline suggestions, chat, slash commands, and agent mode. See how to get the most out of Copilot right inside your editor.</p>
-</div>
-
-<div class="session-card">
-  <h4>Session 3 — GitHub Agentic Workflows</h4>
-  <p>🎙️ <strong>James Balogun</strong> — Explore the next frontier of AI-powered automation: agentic workflows that let Copilot plan, execute, and iterate on multi-step development tasks autonomously.</p>
-</div>
-
-<div class="session-card">
-  <h4>Session 4 — GitHub Copilot CLI – Your AI Terminal Companion</h4>
-  <p>🎙️ <strong>Benjamin Busari</strong> — Stop memorising shell commands. Learn how Copilot CLI turns natural language into terminal commands, explains complex scripts, and makes the command line accessible to everyone.</p>
-</div>
-
----
+After the sessions, roll up your sleeves for a **guided technical workshop** led by **Imoh Etuk** and **Benjamin Busari**. You'll work through real-world exercises using GitHub Copilot — bring your laptop and come ready to code!
 
 ### Hands-on Workshop (1 Hour)
 
