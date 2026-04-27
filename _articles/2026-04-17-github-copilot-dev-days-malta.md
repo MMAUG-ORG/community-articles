@@ -35,7 +35,26 @@ Whether you're a seasoned engineer looking to unlock new productivity gains or a
 
 ## What to Expect
 
-An evening of five focused technical sessions followed by a one-hour hands-on workshop — all designed to take you from "What is Copilot?" to "I can't code without it."
+
+An evening of five focused technical sessions, two networking breaks, and a one-hour hands-on workshop — all designed to take you from "What is Copilot?" to "I can't code without it."
+
+---
+
+## Event Schedule
+
+| S/N | Selected Sessions                                      | Speaker(s)                | Session Time Slot |  |
+|-----|--------------------------------------------------------|---------------------------|-------------------|---|
+|     |                                                        |                           |                   | **Event Duration: 7 PM – 10 PM** |
+| 1   | Welcoming audience & Introduction of the Community      | Ezekiel Ibegbunam         | 10 mins           |   |
+| 2   | GitHub Copilot Dev Days Overview                       | Emmanuel Itoje            | 20 mins           |   |
+| 3   | GitHub Copilot Dev Days – VS Code                      | Imoh Etuk                 | 20 mins           |   |
+|     | Short break (coffee)                                   | -                         | 10 mins           |   |
+| 4   | GitHub Copilot Dev Days – Agentic Workflows            | James Balogun             | 20 mins           |   |
+| 5   | GitHub Copilot Dev Days – CLI                          | Benjamin Busari           | 20 mins           |   |
+|     | Coffee break & networking                              | -                         | 20 mins           |   |
+| 6   | Technical Workshop                                     | Imoh Etuk & Benjamin Busari | 1 hr            |   |
+
+---
 
 ### Session Line-up
 
