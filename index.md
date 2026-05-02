@@ -231,13 +231,6 @@ hide_tagline: false
     <h2>Community knowledge base</h2>
   </div>
 
-  <div class="featured-article-link" style="margin-bottom: 1.5em;">
-    <a class="primary-action" href="/community-articles/articles/github-copilot-dev-days-malta-demo-pack/">
-      <strong>GitHub Copilot Dev Days Malta &mdash; Technical Demo Pack</strong>
-    </a>
-    <span style="display:block; margin-top:0.5em;">Continue learning at your own pace with session-by-session demo runbooks and the workshop facilitation guide from GitHub Copilot Dev Days Malta 2026.</span>
-  </div>
-
 {% assign sorted_articles = site.articles | sort: "date" | reverse %}
 
 {% if sorted_articles.size > 0 %}
