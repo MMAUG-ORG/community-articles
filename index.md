@@ -199,7 +199,7 @@ hide_tagline: false
       <strong>Copilot Dev Days Demos</strong>
       <span>Session runbooks, starter code, challenges, and validation workflow.</span>
     </a>
-    <a href="https://github.com/MMAUG-ORG/maltamsaiusergroup" target="_blank" rel="noopener">
+    <a href="{{ '/governance/' | relative_url }}">
       <strong>Community Governance</strong>
       <span>Public operating model, roles, contribution expectations, and code of conduct.</span>
     </a>
