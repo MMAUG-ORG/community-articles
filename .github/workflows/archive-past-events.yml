@@ -1,0 +1,61 @@
+name: archive-past-events
+
+# Nightly check for events whose date has passed. If any are still listed
+# under the "Upcoming activities" carousel in index.md, the script moves
+# them into the "Past events" sidebar widget and opens a PR for review.
+
+on:
+  schedule:
+    - cron: "15 2 * * *"   # 02:15 UTC daily (~04:15 CEST in summer)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run archiver
+        id: archive
+        run: |
+          python scripts/archive_past_events.py | tee /tmp/archive.log
+          if git diff --quiet -- index.md; then
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+            # Capture the script's summary line for the PR body.
+            tail -n 1 /tmp/archive.log >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Open / update PR
+        if: steps.archive.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/auto-archive-past-events
+          base: main
+          commit-message: "chore: archive expired upcoming events"
+          title: "chore: auto-archive past events"
+          body: |
+            Automated nightly run of `scripts/archive_past_events.py`.
+
+            One or more events listed under **Upcoming activities** have
+            a `data-event-date` earlier than today — they have been moved
+            into the **Past events** sidebar widget.
+
+            Please review the diff, add recording / recap links to each
+            archived item, then merge.
+
+            _Triggered by `.github/workflows/archive-past-events.yml`._
+          labels: |
+            automation
+            content
+          delete-branch: true

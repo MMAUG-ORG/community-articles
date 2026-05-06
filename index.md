@@ -22,7 +22,7 @@ hide_tagline: false
 
 <div class="home-content-grid">
   <div class="home-main-column">
-<section class="featured-event">
+<section class="featured-event" data-event-date="2026-05-09">
   <div class="featured-event-media">
     <img src="{{ '/assets/images/events/github-copilot-dev-days.png' | relative_url }}" alt="Build AI App with Microsoft Foundry and Azure event banner" />
   </div>
@@ -62,13 +62,13 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card">
+    <article class="event-card" data-event-date="2026-05-09">
       <p class="event-kicker">May 9</p>
       <h3>Build AI App with Microsoft Foundry & Azure</h3>
       <p>Online walkthrough for building AI apps with Microsoft Foundry and Azure services.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card">
+    <article class="event-card" data-event-date="2026-05-30">
       <p class="event-kicker">May 30</p>
       <h3>AZD for AI Developers Workshop</h3>
       <p>Hands-on workshop for discovering, deploying, and customizing Azure Developer CLI templates for AI apps.</p>

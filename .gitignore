@@ -15,3 +15,5 @@ _site/
 *.swp
 *.swo
 *~
+__pycache__/
+*.pyc
