@@ -28,26 +28,27 @@ hide_tagline: false
   </div>
   <div class="featured-event-body">
   <div class="featured-event-copy">
-    <p class="eyebrow">Featured event</p>
+    <p class="eyebrow">Recorded session</p>
     <h2>Build AI App with Microsoft Foundry &amp; Azure</h2>
-    <p class="event-date">May 9, 2026 - 6:00 PM CEST</p>
+    <p class="event-date">May 9, 2026 - Part 1 recording available</p>
     <p>
-      Online walkthrough on building AI-powered applications with Microsoft Foundry and Azure services.
-      Learn how to ground, orchestrate, and deploy intelligent apps with practical, repeatable patterns.
+      Watch Part 1 of the technical hands-on lab for building AI-powered applications with Microsoft Foundry and Azure.
+      The backend app failed during the live session, so the end-to-end app flow was not demonstrated to participants.
+      Part 2 will capture the completed app-flow demo and will be added to the website when it is available.
     </p>
     <div class="inline-actions">
-      <a class="primary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">Register on Meetup</a>
-      <a class="secondary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events" target="_blank" rel="noopener">View all upcoming events</a>
+      <a class="primary-action" href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Watch Part 1 recording</a>
+      <a class="secondary-action" href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Open hands-on lab article</a>
     </div>
   </div>
     <dl class="event-facts">
       <div>
         <dt>Format</dt>
-        <dd>Online session</dd>
+        <dd>Recorded online hands-on lab</dd>
       </div>
       <div>
-        <dt>Audience</dt>
-        <dd>Developers building with Microsoft Foundry and Azure</dd>
+        <dt>Recording</dt>
+        <dd>Build AI App with Microsoft Foundry &amp; Azure - Part 1</dd>
       </div>
     </dl>
   </div>
@@ -62,12 +63,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-05-09">
-      <p class="event-kicker">May 9</p>
-      <h3>Build AI App with Microsoft Foundry & Azure</h3>
-      <p>Online walkthrough for building AI apps with Microsoft Foundry and Azure services.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">View event</a>
-    </article>
     <article class="event-card" data-event-date="2026-05-30">
       <p class="event-kicker">May 30</p>
       <h3>AZD for AI Developers Workshop</h3>
@@ -87,6 +82,20 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item" data-event-date="2026-05-09">
+        <p class="event-kicker">May 9, 2026</p>
+        <h3>Build AI App with Microsoft Foundry &amp; Azure</h3>
+        <p>
+          Online technical hands-on lab for building an AI app with Microsoft Foundry and Azure.
+          The available recording is Part 1; because the backend app failed during the live session,
+          the end-to-end app flow was not demonstrated and will be captured in Part 2.
+        </p>
+        <div class="past-event-actions">
+          <a href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Hands-on lab article</a>
+          <a href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Build AI App with Microsoft Foundry &amp; Azure - Part 1</a>
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">Event details</a>
+        </div>
+      </article>
       <article class="past-event-item">
         <p class="event-kicker">April 29, 2026</p>
         <h3>GitHub Copilot Dev Days | Malta</h3>

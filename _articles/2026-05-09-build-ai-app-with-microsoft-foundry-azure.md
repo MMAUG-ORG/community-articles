@@ -11,7 +11,7 @@ event_date: "Saturday, May 9, 2026"
 event_time: "6:00 PM CEST"
 event_venue: "Online — Microsoft Teams"
 registration_url: "https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/"
-canonical_url: "https://mmaug-org.github.io/community-articles/articles/2026-05-09-build-ai-app-with-microsoft-foundry-azure.html"
+canonical_url: "https://mmaug-org.github.io/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/"
 speakers:
   - "Imoh Etuk"
 ---
@@ -51,4 +51,9 @@ are open-sourced at:
 
 ## Recording
 
-A link to the session recording will be added here after the event.
+[Build AI App with Microsoft Foundry & Azure - Part 1](https://www.youtube.com/watch?v=r5vbO_SvmyA)
+
+This Part 1 recording is from the May 9, 2026 technical hands-on lab. During the live session,
+the backend app failed, so participants did not get the end-to-end application flow demo.
+Part 2 of the video will capture the completed app-flow demo and will be added to this page
+when it is available.
