@@ -66,8 +66,26 @@ hide_tagline: false
     <article class="event-card" data-event-date="2026-05-30">
       <p class="event-kicker">May 30</p>
       <h3>AZD for AI Developers Workshop</h3>
-      <p>Hands-on workshop for discovering, deploying, and customizing Azure Developer CLI templates for AI apps.</p>
+      <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314105013/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-06-13">
+      <p class="event-kicker">Jun 13</p>
+      <h3>Demystifying AI: A Practical Guide to Common AI Terms</h3>
+      <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-06-27">
+      <p class="event-kicker">Jun 27</p>
+      <h3>Is SpecKit the future for software development</h3>
+      <p>Using AI for code generation is getting quite common.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314753405/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-07-11">
+      <p class="event-kicker">Jul 11</p>
+      <h3>Architecting AI with MCP</h3>
+      <p>As AI systems move from single responses to multi-step reasoning and action, context becomes a first-class architectural concern.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314750746/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>

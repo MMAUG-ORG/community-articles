@@ -1,0 +1,52 @@
+name: sync-upcoming-meetup-events
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync upcoming Meetup events
+        id: sync
+        run: |
+          python scripts/sync_upcoming_meetup_events.py | tee /tmp/meetup-sync.log
+          if git diff --quiet -- index.md; then
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+            tail -n 1 /tmp/meetup-sync.log >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Open / update PR
+        if: steps.sync.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/sync-upcoming-meetup-events
+          base: main
+          commit-message: "chore: sync upcoming Meetup events"
+          title: "chore: sync upcoming Meetup events"
+          body: |
+            Automated sync of homepage **Upcoming activities** from the Meetup group events page.
+
+            This updates the carousel in `index.md` so the homepage reflects the current
+            upcoming events listed on Meetup.
+
+            _Triggered by `.github/workflows/sync-upcoming-meetup-events.yml`._
+          labels: |
+            automation
+            content
+          delete-branch: true

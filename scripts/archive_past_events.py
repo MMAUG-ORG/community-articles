@@ -38,7 +38,7 @@ EVENT_CARD_RE = re.compile(
     re.DOTALL,
 )
 TITLE_RE = re.compile(r"<h3>(.*?)</h3>", re.DOTALL)
-DESC_RE = re.compile(r"<p>(?!<)(.*?)</p>", re.DOTALL)
+DESC_RE = re.compile(r"</h3>\s*<p>(.*?)</p>", re.DOTALL)
 LINK_RE = re.compile(r'<a href="([^"]+)"[^>]*>([^<]+)</a>')
 
 

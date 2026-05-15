@@ -273,3 +273,9 @@ The roadmap is successful if the learner can:
 - Build or supervise a small RAG or agent-based proof of concept.
 - Define governance, security, cost, and observability requirements for production readiness.
 - Present a practical Azure-first AI deployment roadmap for a real business use case.
+
+## Download the mentorship pack
+
+Members can download the full mentorship pack as a PDF here:
+
+- [Download the Azure AI Foundry 6-Month Learning Roadmap (PDF)]({{ '/assets/files/mentorship-packs/azure-ai-foundry-6-month-learning-roadmap.pdf' | relative_url }})
