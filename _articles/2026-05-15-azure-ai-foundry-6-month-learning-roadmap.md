@@ -44,6 +44,8 @@ All learning paths in this mentorship pack are based on Microsoft Learn:
 - Introduction to machine learning operations (MLOps)
 - End-to-end machine learning operations (MLOps) with Azure Machine Learning
 
+All reference links are available in the PDF file for the mentorship pack at the bottom of this page. 
+
 ## Skill map for Azure AI deployments
 
 The learner should deliberately connect AI concepts to these Azure service areas:
