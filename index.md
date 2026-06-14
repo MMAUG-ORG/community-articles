@@ -75,22 +75,10 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-05-30">
-      <p class="event-kicker">May 30</p>
-      <h3>AZD for AI Developers Workshop</h3>
-      <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314105013/" target="_blank" rel="noopener">View event</a>
-    </article>
-    <article class="event-card" data-event-date="2026-06-13">
-      <p class="event-kicker">Jun 13</p>
-      <h3>Demystifying AI: A Practical Guide to Common AI Terms</h3>
-      <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">View event</a>
-    </article>
     <article class="event-card" data-event-date="2026-06-24">
       <p class="event-kicker">Jun 24</p>
       <h3>Microsoft Build //localhost:luqa</h3>
-      <p>In-person Build community event with Azure AI use cases, Foundry and GitHub Copilot demos, guided labs, and local developer networking.</p>
+      <p>Microsoft Build //localhost is a global series of **community-led,** **hands-on, in-person learning events** designed to extend Microsoft Build content directly into local technical communities.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">View event</a>
     </article>
     <article class="event-card" data-event-date="2026-06-27">
@@ -104,6 +92,24 @@ hide_tagline: false
       <h3>Architecting AI with MCP</h3>
       <p>As AI systems move from single responses to multi-step reasoning and action, context becomes a first-class architectural concern.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314750746/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-07-25">
+      <p class="event-kicker">Jul 25</p>
+      <h3>From Single Agent to Multi-Agent Workflows in Microsoft Azure AI Foundry</h3>
+      <p>Most AI demos stop at a single agent answering a question.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242238/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-09-12">
+      <p class="event-kicker">Sep 12</p>
+      <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
+      <p>Implementing Responsible AI (RAI) and content safety in enterprise AI agents is fundamental to ensuring that autonomous and semi‑autonomous systems operate ethically, securely,...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315241697/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-10">
+      <p class="event-kicker">Oct 10</p>
+      <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
+      <p>Enterprises are moving beyond AI pilots toward governed, production-ready AI agents—but fragmented tools and operational complexity often slow progress.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242038/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
