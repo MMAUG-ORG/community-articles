@@ -143,7 +143,16 @@ $mmaug-soft: #f6f8fa;
 
 .past-event-item {
   border-left: 4px solid $mmaug-teal;
+  margin-top: 16px;
   padding-left: 14px;
+  padding-top: 14px;
+  border-top: 1px dotted $mmaug-border;
+}
+
+.past-event-item:first-of-type {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .past-event-item h3 {
@@ -400,6 +409,18 @@ $mmaug-soft: #f6f8fa;
   color: $mmaug-teal;
   font-weight: 700;
   margin: 0 0 8px;
+}
+
+.past-event-item .event-kicker {
+  background: #fff3b0;
+  border-radius: 4px;
+  color: #7a5c00;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin: 0 0 8px;
+  padding: 2px 8px;
 }
 
 .event-card h3,
