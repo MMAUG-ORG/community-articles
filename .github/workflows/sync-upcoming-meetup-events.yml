@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
-  issues: write
 
 jobs:
   sync:
@@ -32,22 +30,11 @@ jobs:
             tail -n 1 /tmp/meetup-sync.log >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Open / update PR
+      - name: Commit and push
         if: steps.sync.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: chore/sync-upcoming-meetup-events
-          base: main
-          commit-message: "chore: sync upcoming Meetup events"
-          title: "chore: sync upcoming Meetup events"
-          body: |
-            Automated sync of homepage **Upcoming activities** from the Meetup group events page.
-
-            This updates the carousel in `index.md` so the homepage reflects the current
-            upcoming events listed on Meetup.
-
-            _Triggered by `.github/workflows/sync-upcoming-meetup-events.yml`._
-          labels: |
-            automation
-            content
-          delete-branch: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "chore: sync upcoming Meetup events [skip ci]"
+          git push
