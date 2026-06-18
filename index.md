@@ -125,7 +125,7 @@ hide_tagline: false
           <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
         </div>
       </article>
-      <article class="past-event-item" data-event-date="2026-05-09">
+      <article class="past-event-item past-event-hidden" data-event-date="2026-05-09">
         <p class="event-kicker">May 9, 2026</p>
         <h3>Build AI App with Microsoft Foundry &amp; Azure</h3>
         <p>
@@ -139,7 +139,7 @@ hide_tagline: false
           <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">Event details</a>
         </div>
       </article>
-      <article class="past-event-item">
+      <article class="past-event-item past-event-hidden">
         <p class="event-kicker">April 29, 2026</p>
         <h3>GitHub Copilot Dev Days | Malta</h3>
         <p>
@@ -153,7 +153,7 @@ hide_tagline: false
           <a href="https://www.youtube.com/watch?v=cvpsF0yYVlw" target="_blank" rel="noopener">Watch event highlights</a>
         </div>
       </article>
-      <article class="past-event-item">
+      <article class="past-event-item past-event-hidden">
         <p class="event-kicker">April 18, 2026</p>
         <h3>Leadership Chat on Career Transition in the Age of AI</h3>
         <p>Online community conversation on navigating career change as AI reshapes technical work.</p>
@@ -162,6 +162,7 @@ hide_tagline: false
           <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/past/" target="_blank" rel="noopener">Event details</a>
         </div>
       </article>
+      <button class="past-events-toggle" aria-expanded="false" data-past-events-toggle>Show all past events ▾</button>
     </section>
 
     <section class="side-widget resource-widget">
@@ -372,6 +373,22 @@ hide_tagline: false
       track.addEventListener("scroll", updateButtons);
       window.addEventListener("resize", updateButtons);
       updateButtons();
+    });
+  }());
+</script>
+
+<script>
+  (function () {
+    var btn = document.querySelector("[data-past-events-toggle]");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var expanded = btn.getAttribute("aria-expanded") === "true";
+      var hidden = document.querySelectorAll(".past-events-widget .past-event-hidden");
+      hidden.forEach(function (el) {
+        el.style.display = expanded ? "" : "block";
+      });
+      btn.setAttribute("aria-expanded", String(!expanded));
+      btn.textContent = expanded ? "Show all past events \u25be" : "Show fewer \u25b4";
     });
   }());
 </script>

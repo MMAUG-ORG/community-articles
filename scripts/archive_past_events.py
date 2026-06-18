@@ -42,7 +42,14 @@ DESC_RE = re.compile(r"</h3>\s*<p>(.*?)</p>", re.DOTALL)
 LINK_RE = re.compile(r'<a href="([^"]+)"[^>]*>([^<]+)</a>')
 
 
-def render_past_item(date_iso: str, card_html: str) -> str:
+PAST_ITEM_RE = re.compile(
+    r'<article class="past-event-item[^"]*"',
+    re.DOTALL,
+)
+VISIBLE_ITEMS_SHOWN = 2  # items shown before the "Show all" toggle
+
+
+def render_past_item(date_iso: str, card_html: str, hidden: bool = False) -> str:
     """Convert an upcoming-card HTML body into a past-event-item block."""
     date_obj = dt.date.fromisoformat(date_iso)
     pretty = date_obj.strftime("%B %-d, %Y")  # macOS / Linux
@@ -67,8 +74,9 @@ def render_past_item(date_iso: str, card_html: str) -> str:
     )
     actions_html = "\n".join(actions) if actions else ""
 
+    hidden_class = " past-event-hidden" if hidden else ""
     return (
-        f'      <article class="past-event-item" data-event-date="{date_iso}">\n'
+        f'      <article class="past-event-item{hidden_class}" data-event-date="{date_iso}">\n'
         f'        <p class="event-kicker">{pretty}</p>\n'
         f'        <h3>{title}</h3>\n'
         f'        <p>{desc}</p>\n'
@@ -112,16 +120,28 @@ def main() -> int:
         + text[carousel_m.end(2):]
     )
 
-    # Build past-event blocks (newest first)
-    expired.sort(key=lambda t: t[0], reverse=True)
-    past_blocks = "\n".join(
-        render_past_item(date_iso, card) for date_iso, card in expired
-    )
-
+    # Build past-event blocks (newest first).
+    # New items are inserted at the top of the widget. Count how many visible
+    # (non-hidden) items already exist so we know from which position to hide.
     past_m = PAST_HEADING_RE.search(text)
     if not past_m:
         print("error: could not locate past-events widget", file=sys.stderr)
         return 3
+
+    existing_visible = sum(
+        1 for m in PAST_ITEM_RE.finditer(text[past_m.end():])
+        if "past-event-hidden" not in m.group(0)
+    )
+
+    expired.sort(key=lambda t: t[0], reverse=True)
+    past_item_blocks: list[str] = []
+    for idx, (date_iso, card) in enumerate(expired):
+        # Item is hidden if it would fall at position >= VISIBLE_ITEMS_SHOWN
+        # once inserted ahead of the existing visible items.
+        should_hide = (idx + existing_visible) >= VISIBLE_ITEMS_SHOWN
+        past_item_blocks.append(render_past_item(date_iso, card, hidden=should_hide))
+    past_blocks = "\n".join(past_item_blocks)
+
     insertion_point = past_m.end()
     text = text[:insertion_point] + "\n" + past_blocks + text[insertion_point:]
 

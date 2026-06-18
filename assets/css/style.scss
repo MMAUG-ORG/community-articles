@@ -122,6 +122,25 @@ $mmaug-soft: #f6f8fa;
   margin: 0 0 14px;
 }
 
+.past-events-widget .past-event-item.past-event-hidden {
+  display: none;
+}
+
+.past-events-toggle {
+  background: none;
+  border: 1px solid $mmaug-border;
+  border-radius: 4px;
+  color: $mmaug-teal;
+  cursor: pointer;
+  font-size: 0.88em;
+  margin-top: 12px;
+  padding: 5px 12px;
+  width: 100%;
+  &:hover {
+    background: lighten($mmaug-teal, 52%);
+  }
+}
+
 .past-event-item {
   border-left: 4px solid $mmaug-teal;
   padding-left: 14px;
