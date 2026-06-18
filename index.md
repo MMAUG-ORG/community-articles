@@ -101,35 +101,6 @@ hide_tagline: false
     <a class="secondary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events" target="_blank" rel="noopener">View all upcoming events on Meetup</a>
   </div>
 </section>
-
-<section class="featured-event featured-event-recorded">
-  <div class="featured-event-body">
-  <div class="featured-event-copy">
-    <p class="eyebrow">Recorded Session</p>
-    <h2>Build AI App with Microsoft Foundry &amp; Azure</h2>
-    <p class="event-date">May 9, 2026 · Part 1 recording available</p>
-    <p>
-      Watch Part 1 of the technical hands-on lab for building AI-powered applications with Microsoft Foundry and Azure.
-      The backend app failed during the live session, so the end-to-end app flow was not demonstrated to participants.
-      Part 2 will capture the completed app-flow demo and will be added to the website when it is available.
-    </p>
-    <div class="inline-actions">
-      <a class="primary-action" href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Watch Part 1 recording</a>
-      <a class="secondary-action" href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Open hands-on lab article</a>
-    </div>
-  </div>
-    <dl class="event-facts">
-      <div>
-        <dt>Format</dt>
-        <dd>Recorded online hands-on lab</dd>
-      </div>
-      <div>
-        <dt>Recording</dt>
-        <dd>Build AI App with Microsoft Foundry &amp; Azure - Part 1</dd>
-      </div>
-    </dl>
-  </div>
-</section>
   </div>
 
   <aside class="home-side-rail" aria-label="Community event resources">
