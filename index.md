@@ -75,18 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-05-30">
-      <p class="event-kicker">May 30</p>
-      <h3>AZD for AI Developers Workshop</h3>
-      <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314105013/" target="_blank" rel="noopener">View event</a>
-    </article>
-    <article class="event-card" data-event-date="2026-06-13">
-      <p class="event-kicker">Jun 13</p>
-      <h3>Demystifying AI: A Practical Guide to Common AI Terms</h3>
-      <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">View event</a>
-    </article>
+
     <article class="event-card" data-event-date="2026-06-24">
       <p class="event-kicker">Jun 24</p>
       <h3>Microsoft Build //localhost:luqa</h3>
@@ -147,6 +136,22 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item" data-event-date="2026-06-13">
+        <p class="event-kicker">June 13, 2026</p>
+        <h3>Demystifying AI: A Practical Guide to Common AI Terms</h3>
+        <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">Event details</a>
+        </div>
+      </article>
+      <article class="past-event-item" data-event-date="2026-05-30">
+        <p class="event-kicker">May 30, 2026</p>
+        <h3>AZD for AI Developers Workshop</h3>
+        <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314105013/" target="_blank" rel="noopener">Event details</a>
+        </div>
+      </article>
       <article class="past-event-item" data-event-date="2026-05-09">
         <p class="event-kicker">May 9, 2026</p>
         <h3>Build AI App with Microsoft Foundry &amp; Azure</h3>
