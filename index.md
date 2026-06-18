@@ -142,6 +142,7 @@ hide_tagline: false
         <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
         <div class="past-event-actions">
           <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
         </div>
       </article>
       <article class="past-event-item" data-event-date="2026-05-30">
@@ -150,6 +151,7 @@ hide_tagline: false
         <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
         <div class="past-event-actions">
           <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314105013/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
         </div>
       </article>
       <article class="past-event-item" data-event-date="2026-05-09">

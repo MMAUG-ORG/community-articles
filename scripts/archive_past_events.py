@@ -59,6 +59,12 @@ def render_past_item(date_iso: str, card_html: str) -> str:
         actions.append(
             f'          <a href="{href}" target="_blank" rel="noopener">{label}</a>'
         )
+    # Always add a pointer to the community YouTube channel for recordings.
+    actions.append(
+        '          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG"'
+        ' target="_blank" rel="noopener">'
+        "Catch up on the recording on our YouTube channel</a>"
+    )
     actions_html = "\n".join(actions) if actions else ""
 
     return (
