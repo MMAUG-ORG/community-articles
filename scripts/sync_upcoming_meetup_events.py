@@ -37,7 +37,10 @@ def fetch_html(url: str) -> str:
         return response.read().decode("utf-8")
 
 
-def extract_upcoming_events(html_text: str) -> list[dict[str, str]]:
+def extract_upcoming_events(
+    html_text: str, today: dt.date | None = None
+) -> list[dict[str, str]]:
+    today = today or dt.date.today()
     next_data_match = NEXT_DATA_RE.search(html_text)
     if not next_data_match:
         raise RuntimeError("could not locate __NEXT_DATA__ payload on Meetup page")
@@ -69,6 +72,8 @@ def extract_upcoming_events(html_text: str) -> list[dict[str, str]]:
             continue
 
         when = dt.datetime.fromisoformat(event["dateTime"])
+        if when.date() < today:
+            continue
         events.append(
             {
                 "date_iso": when.date().isoformat(),
@@ -79,6 +84,7 @@ def extract_upcoming_events(html_text: str) -> list[dict[str, str]]:
             }
         )
 
+    events.sort(key=lambda event: (event["date_iso"], event["title"]))
     return events[:MAX_EVENTS]
 
 
@@ -116,9 +122,6 @@ def render_event_card(event: dict[str, str]) -> str:
 def main() -> int:
     html_text = fetch_html(GROUP_URL)
     events = extract_upcoming_events(html_text)
-    if not events:
-        raise RuntimeError("Meetup page returned no active upcoming events")
-
     new_inner = "\n".join(render_event_card(event) for event in events)
     text = INDEX.read_text()
     carousel_match = CAROUSEL_RE.search(text)

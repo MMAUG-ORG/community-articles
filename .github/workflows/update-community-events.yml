@@ -1,0 +1,75 @@
+name: update-community-events
+
+# Archive expired homepage events first, then replace the upcoming carousel
+# with current/future events from Meetup. Changes are proposed through a pull
+# request because main requires PRs.
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-community-events
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Archive expired events
+        run: python scripts/archive_past_events.py
+
+      - name: Sync current and future Meetup events
+        run: python scripts/sync_upcoming_meetup_events.py
+
+      - name: Run event automation tests
+        run: python -m unittest discover -s tests -p "test_event_scripts.py"
+
+      - name: Detect homepage changes
+        id: changes
+        run: |
+          if git diff --quiet -- index.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit automation branch
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          BRANCH: automation/update-community-events
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add index.md
+          git commit -m "chore: update community events"
+          git push --force origin "HEAD:$BRANCH"
+
+      - name: Open or refresh pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: automation/update-community-events
+        run: |
+          pr_url=$(gh pr list --base main --head "$BRANCH" --state open --json url --jq '.[0].url')
+          if [ -z "$pr_url" ]; then
+            gh pr create \
+              --base main \
+              --head "$BRANCH" \
+              --title "chore: update community events" \
+              --body "Automated update: archives expired events and syncs current/future events from Meetup."
+          else
+            echo "Updated existing pull request: $pr_url"
+          fi
