@@ -22,50 +22,6 @@ hide_tagline: false
 
 <div class="home-content-grid">
   <div class="home-main-column">
-<section class="featured-event featured-event-upcoming" data-event-date="2026-06-24">
-  <div class="featured-event-media">
-    <img src="{{ '/assets/images/events/fy26-build-localhost-luqa-2026.png' | relative_url }}" alt="Microsoft Build localhost Luqa featured event banner" />
-  </div>
-  <div class="featured-event-body">
-  <div class="featured-event-copy">
-    <p class="eyebrow">Featured Event</p>
-    <h2>Microsoft Build //localhost:luqa</h2>
-    <p class="event-date">Wednesday, June 24, 2026 · In-person event in Luqa, Malta</p>
-    <p>
-      Microsoft Build //localhost is a community-led, hands-on event that brings Microsoft Build content directly into the
-      local technical community. The Malta session is being hosted in collaboration with the DUG Meetup Malta community for
-      developers and cloud engineers who want practical AI implementation experience on Azure.
-    </p>
-    <p>
-      Expect Microsoft Build 2026 takeaways, Azure AI and generative AI use cases, live demos with Microsoft Foundry and
-      GitHub Copilot, guided labs, and practical workflows for building and testing AI-powered applications end to end.
-    </p>
-    <div class="inline-actions">
-      <a class="primary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">Register on Meetup</a>
-      <a class="secondary-action" href="https://developer.microsoft.com/en-us/reactor/events/27088/" target="_blank" rel="noopener">View Microsoft Reactor details</a>
-    </div>
-  </div>
-    <dl class="event-facts">
-      <div>
-        <dt>Format</dt>
-        <dd>In-person community event</dd>
-      </div>
-      <div>
-        <dt>Venue</dt>
-        <dd>Microsoft Malta, SkyParks Business Centre, Luqa</dd>
-      </div>
-      <div>
-        <dt>Focus</dt>
-        <dd>Microsoft Foundry, GitHub Copilot, Azure AI, and guided labs</dd>
-      </div>
-      <div>
-        <dt>Registration</dt>
-        <dd>Reserve your spot on Meetup before capacity fills</dd>
-      </div>
-    </dl>
-  </div>
-</section>
-
 <section class="hub-section">
   <div class="section-heading">
     <p class="eyebrow">Upcoming activities</p>
@@ -75,24 +31,35 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-
-    <article class="event-card" data-event-date="2026-06-24">
-      <p class="event-kicker">Jun 24</p>
-      <h3>Microsoft Build //localhost:luqa</h3>
-      <p>In-person Build community event with Azure AI use cases, Foundry and GitHub Copilot demos, guided labs, and local developer networking.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-07-25">
+      <p class="event-kicker">Jul 25</p>
+      <h3>From Single Agent to Multi-Agent Workflows in Microsoft Azure AI Foundry</h3>
+      <p>Most AI demos stop at a single agent answering a question.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242238/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-06-27">
-      <p class="event-kicker">Jun 27</p>
-      <h3>Is SpecKit the future for software development</h3>
-      <p>Using AI for code generation is getting quite common.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314753405/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-08-29">
+      <p class="event-kicker">Aug 29</p>
+      <h3>Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems</h3>
+      <p>Join the Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems by Josephat Onkoba on August 29, 2026, at 6 PM CET Malta time.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315483871/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-07-11">
-      <p class="event-kicker">Jul 11</p>
-      <h3>Architecting AI with MCP</h3>
-      <p>As AI systems move from single responses to multi-step reasoning and action, context becomes a first-class architectural concern.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314750746/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-09-12">
+      <p class="event-kicker">Sep 12</p>
+      <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
+      <p>Implementing Responsible AI (RAI) and content safety in enterprise AI agents is fundamental to ensuring that autonomous and semi‑autonomous systems operate ethically, securely,...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315241697/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-10">
+      <p class="event-kicker">Oct 10</p>
+      <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
+      <p>Enterprises are moving beyond AI pilots toward governed, production-ready AI agents—but fragmented tools and operational complexity often slow progress.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242038/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-11-28">
+      <p class="event-kicker">Nov 28</p>
+      <h3>Building Voice Agents with Azure AI Foundry and the Realtime API</h3>
+      <p>Session title: **Talk to the Future—Building Voice Agents with Azure AI Foundry and the Realtime API** #### Description **What** A demo-driven, architecture-focused 60-minute...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315641300/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
@@ -107,7 +74,34 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
-      <article class="past-event-item" data-event-date="2026-06-13">
+      <article class="past-event-item" data-event-date="2026-07-11">
+        <p class="event-kicker">July 11, 2026</p>
+        <h3>Architecting AI with MCP</h3>
+        <p>As AI systems move from single responses to multi-step reasoning and action, context becomes a first-class architectural concern.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314750746/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item" data-event-date="2026-06-27">
+        <p class="event-kicker">June 27, 2026</p>
+        <h3>Is SpecKit the future for software development</h3>
+        <p>Using AI for code generation is getting quite common.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314753405/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-06-24">
+        <p class="event-kicker">June 24, 2026</p>
+        <h3>Microsoft Build //localhost:luqa</h3>
+        <p>In-person Build community event with Azure AI use cases, Foundry and GitHub Copilot demos, guided labs, and local developer networking.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-06-13">
         <p class="event-kicker">June 13, 2026</p>
         <h3>Demystifying AI: A Practical Guide to Common AI Terms</h3>
         <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
@@ -116,7 +110,7 @@ hide_tagline: false
           <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
         </div>
       </article>
-      <article class="past-event-item" data-event-date="2026-05-30">
+      <article class="past-event-item past-event-hidden" data-event-date="2026-05-30">
         <p class="event-kicker">May 30, 2026</p>
         <h3>AZD for AI Developers Workshop</h3>
         <p>This is a hands-on workshop for learning Azure Developer CLI (AZD) with a focus on AI application deployment.</p>
