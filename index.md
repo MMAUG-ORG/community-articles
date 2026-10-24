@@ -31,35 +31,41 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-07-25">
-      <p class="event-kicker">Jul 25</p>
-      <h3>From Single Agent to Multi-Agent Workflows in Microsoft Azure AI Foundry</h3>
-      <p>Most AI demos stop at a single agent answering a question.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242238/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-10-24">
+      <p class="event-kicker">Oct 24</p>
+      <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
+      <p>Agentic AI often gets sold as “the agent does everything,” with little explanation of what is actually happening or where it can go wrong.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863008/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-08-29">
-      <p class="event-kicker">Aug 29</p>
-      <h3>Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems</h3>
-      <p>Join the Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems by Josephat Onkoba on August 29, 2026, at 6 PM CET Malta time.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315483871/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-10-26">
+      <p class="event-kicker">Oct 26</p>
+      <h3>Git &amp; GitHub: From Zero to Contributor</h3>
+      <p>This hands-on session demystifies Git and GitHub, from understanding version control through practical analogies to using Git commands and completing the GitHub collaboration workflow.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863012/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-09-12">
-      <p class="event-kicker">Sep 12</p>
-      <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
-      <p>Implementing Responsible AI (RAI) and content safety in enterprise AI agents is fundamental to ensuring that autonomous and semi‑autonomous systems operate ethically, securely,...</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315241697/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-10-27">
+      <p class="event-kicker">Oct 27</p>
+      <h3>Advanced Cloud Architecture &amp; DevOps CICD Pipeline Process</h3>
+      <p>This advanced session examines enterprise-grade AI architecture and how pipelines securely move applications from code commit to production, including automated testing,...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863015/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-10-10">
-      <p class="event-kicker">Oct 10</p>
-      <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
-      <p>Enterprises are moving beyond AI pilots toward governed, production-ready AI agents—but fragmented tools and operational complexity often slow progress.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242038/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-10-28">
+      <p class="event-kicker">Oct 28</p>
+      <h3>Capstone Project: Contoso Recruitment Assistant</h3>
+      <p>Design an AI-assisted recruitment solution that structures candidate evidence, supports recruiter analysis and interview preparation, and keeps all hiring decisions under human control.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863048/" target="_blank" rel="noopener">View event</a>
     </article>
-    <article class="event-card" data-event-date="2026-11-28">
-      <p class="event-kicker">Nov 28</p>
-      <h3>Building Voice Agents with Azure AI Foundry and the Realtime API</h3>
-      <p>Session title: **Talk to the Future—Building Voice Agents with Azure AI Foundry and the Realtime API** #### Description **What** A demo-driven, architecture-focused 60-minute...</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315641300/" target="_blank" rel="noopener">View event</a>
+    <article class="event-card" data-event-date="2026-10-28">
+      <p class="event-kicker">Oct 28</p>
+      <h3>Capstone Project: MMAUG Insurance Claims Agent</h3>
+      <p>Build an agentic claims workflow that extracts and validates claim information, retrieves authorised policy evidence, handles missing data safely, and prepares a traceable summary for human review.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863051/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-29">
+      <p class="event-kicker">Oct 29</p>
+      <h3>Capstone Project: MMAUG High School Secure Login Portal</h3>
+      <p>Create a secure school portal with strong authentication, server-side role-based access, protected APIs, account administration, audit history and repeatable DevSecOps delivery.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863053/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
@@ -74,7 +80,43 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
-      <article class="past-event-item" data-event-date="2026-07-11">
+      <article class="past-event-item" data-event-date="2026-10-10">
+        <p class="event-kicker">October 10, 2026</p>
+        <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
+        <p>Enterprises are moving beyond AI pilots toward governed, production-ready AI agents—but fragmented tools and operational complexity often slow progress.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242038/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item" data-event-date="2026-09-12">
+        <p class="event-kicker">September 12, 2026</p>
+        <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
+        <p>Implementing Responsible AI (RAI) and content safety in enterprise AI agents is fundamental to ensuring that autonomous and semi‑autonomous systems operate ethically, securely,...</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315241697/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-08-29">
+        <p class="event-kicker">August 29, 2026</p>
+        <h3>Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems</h3>
+        <p>Join the Orchestrating Safe &amp; Adaptive Learning with Multi-Agent Systems by Josephat Onkoba on August 29, 2026, at 6 PM CET Malta time.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315483871/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-07-25">
+        <p class="event-kicker">July 25, 2026</p>
+        <h3>From Single Agent to Multi-Agent Workflows in Microsoft Azure AI Foundry</h3>
+        <p>Most AI demos stop at a single agent answering a question.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242238/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-07-11">
         <p class="event-kicker">July 11, 2026</p>
         <h3>Architecting AI with MCP</h3>
         <p>As AI systems move from single responses to multi-step reasoning and action, context becomes a first-class architectural concern.</p>
@@ -83,7 +125,7 @@ hide_tagline: false
           <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
         </div>
       </article>
-      <article class="past-event-item" data-event-date="2026-06-27">
+      <article class="past-event-item past-event-hidden" data-event-date="2026-06-27">
         <p class="event-kicker">June 27, 2026</p>
         <h3>Is SpecKit the future for software development</h3>
         <p>Using AI for code generation is getting quite common.</p>
